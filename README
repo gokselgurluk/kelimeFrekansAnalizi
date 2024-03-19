@@ -1,1 +1,10 @@
-En Çok Geçen Kelimeyi Bulma
+# En Çok Geçen Kelimeyi Bulma
+
+Bu Java programı, bir metinde en sık geçen kelimeyi bulmayı sağlar.
+
+## Nasıl Çalışır?
+
+1. Metni kelimelere ayırır.
+2. Kelimeleri saymak için bir `HashMap` kullanır. Her kelimenin frekansını hesaplar ve bir `HashMap` içinde saklar.
+3. `HashMap` üzerinde döngü yaparak en yüksek frekansa sahip kelimeyi bulur.
+4. En çok geçen kelimeyi ve frekansını yazdırır.
